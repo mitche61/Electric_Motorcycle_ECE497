@@ -62,7 +62,7 @@ plot(time, v*3.6)
 title("Speed vs. Time")
 xlabel('Time [s]')
 ylabel('Velocity [km/h]')
-%fprintf("The motorcycle completes the quarter-mile in %3f seconds", ) %time it takes to complete the quarter mile
+fprintf("The motorcycle completes the quarter-mile in %3f seconds", max(time)) %time it takes to complete the quarter mile
 
 %% Plot Power and Torque Curves
 figure
